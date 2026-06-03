@@ -12,13 +12,13 @@ Convert messy PDF-extracted text into clean Markdown files.
 ## Installation
 
 ```bash
-pip install pdfcleanerx
+pip install pdfcleaner
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/pdfcleanerx
+git https://github.com/namanbhola1888/pdfcleaner
 cd pdfcleanerx
 pip install -e ".[dev]"
 ```
@@ -31,19 +31,19 @@ pip install -e ".[dev]"
 
 ```bash
 # Single file → writes output/report.md
-pdfcleanerx convert report.pdf
+pdfcleaner convert report.pdf
 
 # Named output
-pdfcleanerx convert report.pdf --output clean.md
+pdfcleaner convert report.pdf --output clean.md
 
 # Print to stdout
-pdfcleanerx convert report.pdf --stdout
+pdfcleaner convert report.pdf --stdout
 
 # Batch (glob)
-pdfcleanerx convert docs/*.pdf --output-dir ./markdown
+pdfcleaner convert docs/*.pdf --output-dir ./markdown
 
 # Verbose / debug
-pdfcleanerx convert report.pdf --verbose
+pdfcleaner convert report.pdf --verbose
 ```
 
 ### Python SDK
