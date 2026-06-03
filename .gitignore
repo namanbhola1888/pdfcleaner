@@ -32,6 +32,8 @@ htmlcov/
 
 # Output
 output/
+sample.pdf
+sample.md
 
 
 # Workflow
